@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Tetris</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+    <div id="canvasContainer">
+        <div id="canvas"></div>
+        <div id="canvasOverlay">
+            <div id="canvasOverlayText"></div>
+        </div>
+    </div>
+    
+    <div id="rightBar" class="sidebar">
+        <div class="containerBlock">
+            <div id="scoreContainer">
+                <h1>Score</h1>
+                <div id="score">0</div>
+            </div>
+            <div id="levelContainer">
+                <h1>Level</h1>
+                <div id="level">0</div>
+            </div>
+        </div>
+
+        <div id="nextBlockContainer" class="containerBlock">
+            <h1>Next Block</h1>
+            <div id="nextBlock"></div>
+        </div>
+        <div class="containerBlock">
+            <h1>Instructions</h1>
+            <p>
+                Arrow keys to move block
+                <br />Space to rotate
+                <br />
+                </b>P to pause/resume.
+            </p>
+        </div>
+        <div id="author">
+            Released under the MIT License, 2014.
+            <br />Author: Joris Roovers
+        </div>
+
+    </div>
+
+
+
+    <script src="tetris.js"></script>
+</body>
+
+
+</html>
